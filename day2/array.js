@@ -49,3 +49,13 @@ console.log(fill_arr);
 
 fill_arr.unshift("Ram"); //add element to 0th index
 console.log(fill_arr);
+
+//remove element from array we use pop(), shift(), or splice()
+let rl = fill_arr.pop(); //remove last element
+console.log(fill_arr);
+let r1 = fill_arr.shift();  //remove first element
+console.log(fill_arr);
+
+fill_arr.splice(1,2)   //remove 2 element from index1 
+console.log(fill_arr);
+
